@@ -238,5 +238,11 @@
             <name>GitHub Packages - d94-lib-pom</name>
             <url>https://maven.pkg.github.com/david-yj-52/d94-lib-pom</url>
         </repository>
+        <!-- 버전이 -SNAPSHOT 이면 deploy는 repository가 아닌 snapshotRepository를 사용합니다. -->
+        <snapshotRepository>
+            <id>github-d94</id>
+            <name>GitHub Packages - d94-lib-pom</name>
+            <url>https://maven.pkg.github.com/david-yj-52/d94-lib-pom</url>
+        </snapshotRepository>
     </distributionManagement>
 </project>
