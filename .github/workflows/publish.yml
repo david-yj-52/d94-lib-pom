@@ -2,7 +2,7 @@ name: Publish parent POM to GitHub Packages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ deploy ]
     paths:
       - 'pom.xml'
       - '.github/workflows/publish.yml'
