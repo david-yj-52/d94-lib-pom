@@ -172,13 +172,6 @@
             <scope>test</scope>
         </dependency>
 
-
-        <dependency>
-            <groupId>com.tsh</groupId>
-            <artifactId>tsh-schema</artifactId>
-            <version>${tas.d94.schema}</version>
-        </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
